@@ -29,9 +29,9 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://aiguardai.com"
-Repository = "https://github.com/aiguardai/cti-feeds-aggregator"
-Documentation = "https://github.com/aiguardai/cti-feeds-aggregator#readme"
-Issues = "https://github.com/aiguardai/cti-feeds-aggregator/issues"
+Repository = "https://github.com/AI-CYBERGUARD/cti-feeds-aggregator"
+Documentation = "https://github.com/AI-CYBERGUARD/cti-feeds-aggregator#readme"
+Issues = "https://github.com/AI-CYBERGUARD/cti-feeds-aggregator/issues"
 
 [project.scripts]
 cti-feeds = "cti_feeds.cli:main"

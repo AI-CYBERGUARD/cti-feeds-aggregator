@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cti-feeds-aggregator"
+version = "0.1.0"
+description = "Open-source Cyber Threat Intelligence feed aggregator for security teams"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [
+    {name = "AIguard Team", email = "contact@aiguardai.com"},
+]
+keywords = ["cybersecurity", "threat-intelligence", "cti", "ioc", "abuse.ch", "security"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: System :: Networking :: Monitoring",
+]
+
+[project.urls]
+Homepage = "https://aiguardai.com"
+Repository = "https://github.com/aiguardai/cti-feeds-aggregator"
+Documentation = "https://github.com/aiguardai/cti-feeds-aggregator#readme"
+Issues = "https://github.com/aiguardai/cti-feeds-aggregator/issues"
+
+[project.scripts]
+cti-feeds = "cti_feeds.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cti_feeds*"]

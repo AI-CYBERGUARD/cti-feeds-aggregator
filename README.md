@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/aiguardai/cti-feeds-aggregator/actions"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build"></a>
+  <a href="https://github.com/AI-CYBERGUARD/cti-feeds-aggregator/actions"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build"></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python 3.10+"></a>
   <a href="https://pypi.org/project/cti-feeds-aggregator/"><img src="https://img.shields.io/badge/pypi-v0.1.0-orange" alt="PyPI"></a>
